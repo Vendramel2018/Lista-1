@@ -1,8 +1,12 @@
 CSU01 (Manter Cliente)
 
+Ator primário: Secretária
+
+Pré-condição: O cliente informar seus dados e de seu animal
+
 Fluxo principal:
-	1) O cliente fornece as informações de si mesmo e seu animal
-	2) A secretária verifica se o cliente está cadastrado
+	1) A secretária verifica se o cliente está cadastrado
+	2) A secretária pode adicionar,atualizar ou consultar o cadastro do cliente
 	3) O cliente está cadastrado, e a verificação é encerrada
 
 Fluxo secundário (2): Adicionar
@@ -18,3 +22,5 @@ Fluxo secundário (2): Atualizar
 Exceção (2):
 	1. O cliente passou alguma informação errada
 	2. Verificação encerrada
+	
+Pós-condições: Um novo cadastro pode ser realizado ou um cadastro pode ser atualizado
