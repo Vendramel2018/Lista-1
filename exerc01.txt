@@ -1,0 +1,20 @@
+CSU01 (Manter Cliente)
+
+Fluxo principal:
+	1) O cliente fornece as informações de si mesmo e seu animal
+	2) A secretária verifica se o cliente está cadastrado
+	3) Verificação encerrada
+
+Fluxo secundário (2): Adicionar
+	a. O cliente não está cadastrado
+	b. A secretária insere as informações do cliente e do animal no sistema
+	c. O cadastro é concluído
+
+Fluxo secundário (2): Atualizar
+	a. O cliente está cadastro e precisa atualizar alguma informação
+	b. O cliente fornece a informação à ser atualizada
+	c. A secretária atualiza o cadastro
+
+Exceção (2):
+	1. O cliente passou alguma informação errada
+	2. Verificação encerrada
