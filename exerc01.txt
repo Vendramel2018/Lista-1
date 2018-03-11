@@ -1,20 +1,20 @@
 CSU01 (Manter Cliente)
 
 Fluxo principal:
-	1) O cliente fornece as informaÁıes de si mesmo e seu animal
-	2) A secret·ria verifica se o cliente est· cadastrado
-	3) VerificaÁ„o encerrada
+	1) O cliente fornece as informa√ß√µes de si mesmo e seu animal
+	2) A secret√°ria verifica se o cliente est√° cadastrado
+	3) O cliente est√° cadastrado, e a verifica√ß√£o √© encerrada
 
-Fluxo secund·rio (2): Adicionar
-	a. O cliente n„o est· cadastrado
-	b. A secret·ria insere as informaÁıes do cliente e do animal no sistema
-	c. O cadastro È concluÌdo
+Fluxo secund√°rio (2): Adicionar
+	a. O cliente n√£o est√° cadastrado
+	b. A secret√°ria insere as informa√ß√µes do cliente e do animal no sistema
+	c. O cadastro √© conclu√≠do
 
-Fluxo secund·rio (2): Atualizar
-	a. O cliente est· cadastro e precisa atualizar alguma informaÁ„o
-	b. O cliente fornece a informaÁ„o ‡ ser atualizada
-	c. A secret·ria atualiza o cadastro
+Fluxo secund√°rio (2): Atualizar
+	a. O cliente est√° cadastro e precisa atualizar alguma informa√ß√£o
+	b. O cliente fornece a informa√ß√£o √† ser atualizada
+	c. A secret√°ria atualiza o cadastro
 
-ExceÁ„o (2):
-	1. O cliente passou alguma informaÁ„o errada
-	2. VerificaÁ„o encerrada
+Exce√ß√£o (2):
+	1. O cliente passou alguma informa√ß√£o errada
+	2. Verifica√ß√£o encerrada
