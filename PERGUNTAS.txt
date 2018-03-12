@@ -1,0 +1,6 @@
+o proprietario é cliente mesmo?
+
+não vai nenhuma exclusão de veterinario, animal, proprietario e talz?
+
+vai fluxo de excessão nos CU?
+
