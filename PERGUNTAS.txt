@@ -1,6 +1,6 @@
-o proprietario é cliente mesmo?
+o proprietario é cliente mesmo? (daniel)
 
-não vai nenhuma exclusão de veterinario, animal, proprietario e talz?
+não vai nenhuma exclusão de veterinario, animal, proprietario e talz? (daniel)
 
-vai fluxo de excessão nos CU?
+vai fluxo de excessão nos CU? (joel)
 
