@@ -4,3 +4,5 @@ não vai nenhuma exclusão de veterinario, animal, proprietario e talz? (daniel)
 
 vai fluxo de excessão nos CU? (joel)
 
+Como montar o include no ex02 (daniel)
+
