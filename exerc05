@@ -1,0 +1,24 @@
+Exercício 05
+
+Realizar consulta (CSU05)
+
+Ator Principal: Veterinário
+
+Pré-condição:O veterinário, o cliente e o animal estão verificados no sistema.
+
+Fluxo principal:
+      1. Cliente informa ao veterinário sintomas aparentes no animal;
+      2. Veterinário examina animal;
+      3. Veterinário dá o diagnóstio;
+      4. Histórico é atualizado;
+      5. Conta é gerada;
+      6. Consulta é encerrada.
+
+Fluxo alternativo: Exames
+      1. Veterinário solicita exames do animal.
+      2. Nova consulta é marcada.
+      3. Solicitação de exames e conclusões adicionais são inseridas no histórico
+      
+Fluxo de excessão:
+
+Pós-condição:
