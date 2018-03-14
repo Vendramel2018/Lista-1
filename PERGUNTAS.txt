@@ -1,12 +1,13 @@
-o proprietario È cliente mesmo? (daniel)
+o proprietario √© cliente mesmo? (daniel)
 
-n„o vai nenhuma exclus„o de veterinario, animal, proprietario e talz? (daniel)
+n√£o vai nenhuma exclus√£o de veterinario, animal, proprietario e talz? (daniel)
 
-vai fluxo de excess„o nos CU? (joel)
+vai fluxo de excess√£o nos CU? (joel)
 
 Como montar o include no ex02 (daniel)
 
-exercicio 7 coloca os includes entre os modulos ou n„o? (daniel)
+exercicio 7 coloca os includes entre os modulos ou n√£o? (daniel)
 
-Parte B2 e B1 verificar os diagramas feitos se est· dentro do pad„o (daniel)
+Parte B2 e B1 verificar os diagramas feitos se est√° dentro do pad√£o (daniel)
 
+Como textualizar no CU05 include e exclude?
