@@ -10,4 +10,6 @@ exercicio 7 coloca os includes entre os modulos ou não? (daniel)
 
 Parte B2 e B1 verificar os diagramas feitos se está dentro do padão (daniel)
 
-Como textualizar no CU05 include e exclude?
+Como textualizar no CU05 include e exclude? (Gabriel)
+
+Não pude identificar fluxo alternativo no CU06, existe um realmente? (Gabriel)
