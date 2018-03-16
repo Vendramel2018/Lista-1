@@ -1,0 +1,19 @@
+Exercício 06
+
+Marcar Exames (CSU06)
+
+Ator Principal: Veterinário
+
+Pré-condição: Consulta do animal deve ter sido realizada
+
+Fluxo principal:
+      1. Veterinário marca exames do animal;
+      2. Histórico é atualizado;
+      3. Nova consulta é marcada;
+      4. Conta a pagar é gerada;
+
+Fluxo alternativo:
+
+Fluxo de excessão:
+
+Pós-condição: Nova consulta marcada e veterinário pronto pra realizar outra consulta.
