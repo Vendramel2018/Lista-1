@@ -5,4 +5,4 @@ DISJUNTA
 pois cada tipo de tabela faz somente a sua função, as tabelas sistemicas não guardam NENHUM tipo de dado de inserção da mesma forma que tabelas de usuários não guardam nenhum tipo de informação sistemicas, relacionamentos e estruturais do banco entre outros.
 
 ASSIMETRICA
-pois a classe de tabelas sistmicas é uma generalização das tabelas de usários e não tem como inverter isso
+pois a classe de tabelas sistemicas é uma generalização das tabelas de usários e não tem como inverter isso, em resumo somente as filhas chamam a mãe e nunca o contrario
