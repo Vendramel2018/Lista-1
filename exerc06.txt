@@ -7,13 +7,23 @@ Ator Principal: Veterinário
 Pré-condição: Consulta do animal deve ter sido realizada
 
 Fluxo principal:
-      1. Veterinário marca exames do animal;
+      1. Veterinário marca exames gerais do animal;
       2. Histórico é atualizado;
       3. Nova consulta é marcada;
       4. Conta a pagar é gerada;
 
-Fluxo alternativo:
-
+Fluxo alternativo: (exame de sangue)
+      1. Veterinário solicita exame de sangue específico;
+      2. Histórico é atualizado;
+      3. Nova consulta é marcada;
+      4. Conta a pagar é gerada;
+      
+Fluxo alternativo: (raio-x)
+      1. Veterinário solicita raio-x;
+      2. Histórico é atualizado;
+      3. Nova consulta é marcada;
+      4. Conta a pagar é gerada;
+      
 Fluxo de excessão:
 
 Pós-condição: Nova consulta marcada e veterinário pronto pra realizar outra consulta.
