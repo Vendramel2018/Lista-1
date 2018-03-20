@@ -10,15 +10,21 @@ Fluxo principal:
       1. Cliente informa ao veterinário sintomas aparentes no animal;
       2. Veterinário examina animal;
       3. Veterinário dá o diagnóstio;
-      4. Histórico é atualizado;
-      5. Conta é gerada;
+      4. Histórico é atualizado; <<include>> Manter Histórico
+      5. Conta é gerada; <<include>> Gerar Conta
       6. Consulta é encerrada.
+      
+      <<extend>> Solicitar Exame
 
 Fluxo alternativo: Solicitar Exames
-      1. Veterinário solicita exames do animal.
+      1. Veterinário solicita exames gerais do animal.
       2. Nova consulta é marcada.
       3. Solicitação de exames e conclusões adicionais são inseridas no histórico
       
-Fluxo de excessão:
+Fluxo de excessão (1): Não gera conta
+      1. Sistema incapaz de gerar conta;
+      2. Realiza passo 5 do fluxo principl novamente.
+
+Fluxo de excessão (2): 
 
 Pós-condição:História atualizado, conta gerada e veterinário pronto pra relizar outro exame
