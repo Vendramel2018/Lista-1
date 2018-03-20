@@ -1,0 +1,100 @@
+public class Veterinario {
+
+	private String especialidade;
+
+	private String nome;
+
+	private Date nascimento;
+
+	private String endereco;
+
+	private String email;
+
+	private int crmv;
+
+	private Time horarioEntra;
+
+	private Time horarioSaid;
+
+	private Diasatendimento diasAtend;
+
+	public void MarcarConsulta() {
+
+	}
+
+}
+
+
+
+
+
+public class Dermatologia extends Veterinario {
+
+	public void MarcarConsulta() {
+
+	}
+
+}
+
+
+
+public class Animal {
+
+	private String nomeAnimal;
+
+	private Date nascimento;
+
+	private int tipo;
+
+	private int tipoAnimal;
+
+	private TipoRaca raca;
+
+	public void CalcularPrecoConsulta() {
+
+	}
+
+}
+
+
+
+
+public class Patologia extends Veterinario {
+
+	public void MarcarConsulta() {
+
+	}
+
+}
+
+
+
+
+public class ViraLata extends Animal {
+
+	public void CalcularPrecoConsulta() {
+
+	}
+
+}
+
+
+
+public enum TipoRaca {
+
+	;
+
+	private String raca;
+
+}
+
+
+
+public class DeRaca extends Animal {
+
+	public void CalcularPrecoConsulta() {
+
+	}
+
+}
+
