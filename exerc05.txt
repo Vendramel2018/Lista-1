@@ -25,6 +25,9 @@ Fluxo de excessão (1): Não gera conta
       1. Sistema incapaz de gerar conta;
       2. Realiza passo 5 do fluxo principl novamente.
 
-Fluxo de excessão (2): 
+Fluxo de excessão (2): Histórico não atualizado
+      1. Sistema não atualiza histórico;
+      2. Reentrar diagnóstico;
+      3. Realiza passo 4 do fluxo principal novamente.
 
 Pós-condição:História atualizado, conta gerada e veterinário pronto pra relizar outro exame
