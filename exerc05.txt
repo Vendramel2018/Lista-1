@@ -14,7 +14,7 @@ Fluxo principal:
       5. Conta é gerada;
       6. Consulta é encerrada.
 
-Fluxo alternativo: Exames
+Fluxo alternativo: Solicitar Exames
       1. Veterinário solicita exames do animal.
       2. Nova consulta é marcada.
       3. Solicitação de exames e conclusões adicionais são inseridas no histórico
