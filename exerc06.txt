@@ -1,6 +1,6 @@
 Exercício 06
 
-Marcar Exames (CSU06)
+Marcar Exames (CSU06) <<extend>> Realizar Consulta (CSU05)
 
 Ator Principal: Veterinário
 
@@ -24,6 +24,8 @@ Fluxo alternativo: (raio-x)
       3. Nova consulta é marcada;
       4. Conta a pagar é gerada;
       
-Fluxo de excessão:
+Fluxo de excessão: Falha ao solicitar exame
+      1. Reentrar pedido no sistema;
+      2. Realizar novamente o fluxo;
 
 Pós-condição: Nova consulta marcada e veterinário pronto pra realizar outra consulta.
