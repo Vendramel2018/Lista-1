@@ -1,0 +1,6 @@
+O atributo totalConsultasDiarias irá armazenar a quantidade total de consultas possíveis num dia.  
+O atributo totalConsultasMarcadas irá armazenar a quantidade de consultas marcadas no dia.  
+O atributo totalClientes irá armazenar a quantidade de clientes da clinica.
+O método obterTotalConsultasDiarias fará o cálculo do total de consultas possíveis no dia.  
+O método obterTotalConsultasMarcadas fará o cálculo do total de consultas marcadas no dia. 
+O método obterTotalClientes fará o cálculo total dos clientes da clínica. 

@@ -1,0 +1,3 @@
+Classe <ENUM> FormasDePagamento: São as formas de pagamentos que o cliente poderá escolher para quitar a sua conta. 
+Classe <ENUM> TipoDeRaca: É o tipo de raca correspondente ao animal
+Classe <ENUM> StatusDoAtendimento:É o status de atendimento que o animal se encontra

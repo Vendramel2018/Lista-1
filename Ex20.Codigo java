@@ -1,0 +1,40 @@
+public enum StatusDoAtendimento {
+
+	private String EmAtendimento;
+
+	private String  EmEspera;
+
+	private String EmCirurgia;
+
+	private String EmAgendamento;
+
+	}
+
+}
+
+
+public enum TipoRaca {
+
+	;
+
+	private String raca;
+
+}
+
+
+
+public enum FormaDePagamento {
+
+	private int cartaoDebito
+
+	private int cheque
+
+	private int dinheiro
+
+	private int cartaoCredito
+
+	}
+
+}
+
+
