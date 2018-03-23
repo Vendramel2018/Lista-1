@@ -1,0 +1,2 @@
+A classe mais coesa do diagrama é ManterEspecie, pois ela possui seus atributos são exclusivamente focalizados para a espécie.
+Já a classe menos coesa é a de ManterHistorico, pois possui alta responsabilidade de outras classes.
