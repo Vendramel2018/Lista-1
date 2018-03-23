@@ -1,3 +1,3 @@
-Classe <ENUM> FormasDePagamento: S„o as formas de pagamentos que o cliente poder· escolher para quitar a sua conta. 
-Classe <ENUM> TipoDeRaca: … o tipo de raca correspondente ao animal
-Classe <ENUM> StatusDoAtendimento:… o status de atendimento que o animal se encontra
+Classe <ENUM> FormasDePagamento: S√£o as formas de pagamentos que o cliente poder√° escolher para quitar a sua conta. 
+Classe <ENUM> Especia: √â o tipo de especie correspondente ao animal
+Classe <ENUM> AtendimentosDiarios: s√£o os atendimentos gerados no dia antes de serem atualizados no hist√≥rico do veterinario
