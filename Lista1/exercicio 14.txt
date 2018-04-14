@@ -1,0 +1,363 @@
+public class Animal {
+
+	private String nomeAnimal;
+
+	private Date nascimento;
+
+	private TipoAnimal tipoAnimal;
+
+	private String raca;
+
+	private String sintomas;
+
+	private char sexo;
+
+	public int CalcularIdade() {
+		return 0;
+	}
+
+	public String GetEspecie() {
+		return null;
+	}
+
+}
+
+public class Cliente {
+
+	private String nome;
+
+	private String telefone;
+
+	private Date dataNasc;
+
+	private String nomeAnimal;
+
+	private int cpf;
+
+	private String endereco;
+
+	private String email;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+	public void CalcularIdade() {
+
+	}
+
+}
+
+public class ControlAgendamento {
+
+	public void AlterarAgendamento() {
+
+	}
+
+	public void ConsultarAgendamento() {
+
+	}
+
+	public void AdicionarAgendamento() {
+
+	}
+
+	public void CancelarAgendamento() {
+
+	}
+
+}
+
+public class ControlAnimal {
+
+	public void AlterarAnimal() {
+
+	}
+
+	public void ConsultarAnimal() {
+
+	}
+
+	public void AdicionarAnimal() {
+
+	}
+
+}
+
+public class ControlCliente {
+
+	public void CadastrarCliente() {
+
+	}
+
+	public void AtualizarCliente() {
+
+	}
+
+	public void BuscarCliente() {
+
+	}
+
+}
+
+
+public class ControlConsulta {
+
+	private String diagnostico;
+
+	public void GerarConta() {
+
+	}
+
+	public void AtualizarHistorico() {
+
+	}
+
+}
+
+public class ControlExames {
+
+	public void MarcarExame() {
+
+	}
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+
+}
+
+public class ControlVeterinario {
+
+	public void AlterarVet() {
+
+	}
+
+	public void ConsultarVet() {
+
+	}
+
+	public void AdicionarVet() {
+
+	}
+
+}
+
+public class FormAgendamento {
+
+
+}
+
+public class FormAnimal {
+
+
+}
+
+public class FormCliente {
+
+
+}
+
+public class FormConsulta {
+
+}
+
+public class FormExame {
+
+}
+
+public class FormVeterinario {
+
+}
+
+public class GerarConta {
+
+	private String nomeAnimal;
+
+	private String nomeDono;
+
+	public void CalculaConta() {
+
+	}
+
+	public void CalculaDesconto() {
+
+	}
+
+}
+
+public class ManterAnimal {
+
+	private Date data;
+
+	private String proprietario;
+
+	private String animal;
+
+	private String historico;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+}
+
+public class ManterCliente {
+
+	private Date dataCadastro;
+
+	private String nomeCliente;
+
+	private String tipoAnimal;
+
+	private String nomeAnimal;
+
+	public int CalcularQtdRegistros() {
+		return 0;
+	}
+
+	public int CalcularRegistrosPorSecretaria() {
+		return 0;
+	}
+
+}
+
+public class ManterEspecie {
+
+	private String nomeEspecie;
+
+	private String habitat;
+
+	private float tamanhoMedio;
+
+	private String genero;
+
+	private Animal animal;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+}
+
+public class ManterHistorico {
+
+	private String nomeAnimal;
+
+	private Date data;
+
+	private String observacoes;
+
+	private Veterinario veterinario;
+
+	public void AtualizarHistorico() {
+
+	}
+
+	public void ConsultaHistorico() {
+
+	}
+
+}
+
+public class ManterVeterinario {
+
+	private Date diaSem;
+
+	private String especializacao;
+
+	private Date dataContrato;
+
+	private String nomeVet;
+
+	private Veterinario veterinario;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+}
+
+public class MarcarConsulta {
+
+	private String animal;
+
+	private String donoAnimal;
+
+	private Date data;
+
+	private String horario;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+	public void DiaLivres() {
+
+	}
+
+}
+
+public class PagamentoDeConta {
+
+}
+
+public class TipoAnimal {
+
+	private String <<enum>> tipo;
+
+}
+
+public class Veterinario {
+
+	private String nome;
+
+	private String email;
+
+	private int crmv;
+
+	private Time horarioEntra;
+
+	private Time horarioSaid;
+
+	public void Get() {
+
+	}
+
+	public void Set() {
+
+	}
+
+}
+
+
+
+
+
+
+

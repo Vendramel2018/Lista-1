@@ -1,0 +1,2 @@
+A classe mais acoplada é Veterinário, pois é a que possui maior número de relacionamentos.
+A classe menos acoplada é ManterCliente, pois possui o menor número de relacionamentos.

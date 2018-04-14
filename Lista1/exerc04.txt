@@ -1,0 +1,35 @@
+Exercício 04
+
+Marcar Consulta (CSU04)
+
+Ator Primário: Secretaria
+
+Précondição: A secretaria está identificada pelo sistema
+
+Fluxo Principal:
+	1. A secretária verifica os dias disponíveis e os veterinarios existentes, e disponíveis, no sistema para atendimento no dia escolhido;
+	2. A secretária faz a escolha do dia e do veterinario disponivel, pelo nome do veterinario, caso o paciente não tenha preferencia, o agendamento é pelo veterinario com menor consultas marcadas para o dia escolhido;
+	3. A secretária pode marcar, consultar, editar ou cancelar as consultas;
+	4. Se a secretária desejar continuar com a marcação de consultas, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
+
+Fluxo Alternativo (3): Marcar
+	a. A secretária requisita a inclusão de uma nova marcação de consulta.
+	b. O sistema apresenta um formulário em branco para que os detalhes do agendamento (nome do cliente, nome do animal, telefone, endereço) sejam incluídos.
+	c. A secretária verifica os dias e horarios disponíveis para agendamento.
+	d. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo veterinario; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
+
+Fluxo Alternativo (3): Cancelar
+	a. A secretária seleciona o agendamento que deseja realizar o cancelamento e solicita-o.
+	b. O sistema verifica a intenção de cancelamento do agendamento, se ele for válidado, altera o status para cancelado na lista de agendamentos cadastrados e libeira o horario e veterinario.
+
+Fluxo Alternativo (3): Editar
+	a. A secretária altera um ou mais dos detalhes sobre o agendamento.
+	b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de agendamentos cadastrados.
+
+Fluxo Alternativo (3): Consulta
+	a. A secretária solicita a realização de uma consulta sobre a lista de agendamentos existentes.
+	b. O sistema apresenta uma lista com o nome do animal, cliente, cliente e dia e hora dos agendamentos marcados, permitindo que o usuário selecione o agendamento desejado.
+	c. A secretária seleciona o agendamento.
+	d. O sistema apresenta os detalhes do agendamento.
+
+Pós-condições: um agendamento foi inserido ou seus detalhes foram alterados.

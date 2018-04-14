@@ -1,0 +1,8 @@
+COMPLETA
+Pois engloba todos os tipo de tabelas existentes em um database, que são as tabelas de sistemas (que tem estruturas, tabelas sis, armazenamento de endereçamento, relacionamento das FK, usuarios do banco, acessos) e as tabelas de usuários, que contem os dados em si para uso dos usuários.
+
+DISJUNTA
+pois cada tipo de tabela faz somente a sua função, as tabelas sistemicas não guardam NENHUM tipo de dado de inserção da mesma forma que tabelas de usuários não guardam nenhum tipo de informação sistemicas, relacionamentos e estruturais do banco entre outros.
+
+ASSIMETRICA
+pois a classe de tabelas sistemicas é uma generalização das tabelas de usários e não tem como inverter isso, em resumo somente as filhas chamam a mãe e nunca o contrario

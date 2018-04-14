@@ -1,0 +1,31 @@
+Exercício 03
+
+Manter veterinario (CSU03)
+
+Ator Primário: Secretaria
+
+Précondição: A secretaria está identificada pelo sistema
+
+Fluxo Principal:
+	1. A secretária verifica os veterinarios existentes, e disponíveis, no sistema para atendimento;
+	2. A secretária faz a escolha dos veterinarios pelo nome do veterinario;
+	3. A secretária pode adicionar, consultar ou editar os dados do veterinario;
+	4. Se a secretária desejar continuar com a manutenção, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
+
+Fluxo Alternativo (3): Adicionar
+	a. A secretária requisita a inclusão de um novo veterinário.
+	b. O sistema apresenta um formulário em branco para que os detalhes do veterinário (nome, CRMV, telefone, endereço, horario de atendimento) sejam incluídos.
+	c. A secretária fornece os detalhes do novo veterinário.
+	d. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo veterinario; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
+
+Fluxo Alternativo (3): Editar
+	a. A secretária altera um ou mais dos detalhes sobre o veterinario, menos o numero do CRMV.
+	b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de veterinarios cadastrados.
+
+Fluxo Alternativo (3): Consulta
+	a. A secretária solicita a realização de uma consulta sobre a lista de veterinarios.
+	b. O sistema apresenta uma lista com os nomes dos veterinários disponíveis, permitindo que o usuário selecione o veterinário desejado.
+	c. A secretária seleciona o veterinário.
+	d. O sistema apresenta os detalhes do veterinário.
+
+Pós-condições: um veterinario foi inserido ou seus detalhes foram alterados.

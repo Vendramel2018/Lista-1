@@ -1,0 +1,73 @@
+public class Animal {
+
+	private Especies Especie;
+
+	private char sexo;
+
+	private String nome;
+
+}
+
+public class Atendimento {
+
+	private Date dia;
+
+	private AtendimentosDiarios atendimentosDiarios;
+
+	private Time hora;
+
+}
+
+public enum AtendimentosDiarios {
+
+	;
+
+	private String EmAtendimento() {
+		return null;
+	}
+
+	private String EmEspera() {
+		return null;
+	}
+
+	private String EmCirurgia() {
+		return null;
+	}
+
+	private String EmAgendamento() {
+		return null;
+	}
+
+}
+
+public enum Especies {
+
+	;
+
+	private String raca;
+
+}
+
+public enum FormaDePagamento {
+
+	;
+
+	private int cartaoDebito;
+
+	private int cheque;
+
+	private int dinheiro;
+
+	private int cartaoCredito;
+
+}
+
+public class Pagamento {
+
+	private FormaDePagamento formaPagamento;
+
+	private float valor;
+
+	private String banco;
+
+}

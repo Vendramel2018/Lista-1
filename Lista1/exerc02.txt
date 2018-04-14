@@ -1,0 +1,35 @@
+Exercício 02
+
+Manter animal (CSU02)
+
+Ator Primário: Secretaria
+
+Précondição: A secretaria está identificada pelo sistema
+
+Fluxo Principal:
+	1. A secretária verifica os animais existentes no sistema;
+	2. A secretária faz a filtragem dos animais pelo nome do animal e/ou nome do dono;
+	3. A secretária pode adicionar, consultar ou editar o animal
+	4. A especie do animal é obtida pela classe ManterEspecie <<include>>, que vai filtrar somente as especies pertinente ao tipo de animal para a escolha 
+	5. Se a secretária desejar continuar com a manutenção, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
+
+Fluxo Alternativo (3): Adicionar
+	a. A secretária requisita a inclusão de um animal no sistema.
+	b. O sistema apresenta um formulário em branco para que os detalhes do animal (nome, tipo, dono, histórico) sejam incluídos.
+	c. A secretária fornece os detalhes do novo animal.
+	d. O sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo animal; caso contrário, o sistema reporta o fato, solicita novos dados e repete a verificação.
+
+Fluxo Alternativo (3): Editar
+	a. A secretária altera um ou mais dos detalhes sobre o animal.
+	b. O sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de animais cadastrados.
+
+Fluxo Alternativo (3): Consulta
+	a. A secretária solicita a realização de uma consulta sobre a lista de animais.
+	b. O sistema apresenta uma lista com os nomes dos animais e do seu dono, permitindo que o usuário selecione o animal desejado.
+	c. A secretária seleciona o animal.
+	d. O sistema apresenta os detalhes do animal e seu histórico.
+
+Fluxo de excessão (5): ManterEspecie
+	a. Se a especie não estiver cadastrada, abrirá ma nova janela para o cadastramento da mesma, e inclusão da mesma no sistema
+
+Pós-condições: um animal foi inserido ou seus detalhes foram alterados.

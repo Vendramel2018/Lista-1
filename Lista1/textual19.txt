@@ -1,0 +1,3 @@
+Classe <ENUM> FormasDePagamento: São as formas de pagamentos que o cliente poderá escolher para quitar a sua conta. 
+Classe <ENUM> Especia: É o tipo de especie correspondente ao animal
+Classe <ENUM> AtendimentosDiarios: são os atendimentos gerados no dia antes de serem atualizados no histórico do veterinario

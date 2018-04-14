@@ -1,0 +1,1 @@
+A dependência não estrutural por variável local tem como vantagens o encapsulamento e o acoplamento, e como desvantagem o desempenho.

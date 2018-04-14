@@ -1,0 +1,122 @@
+public class ControlAnimal {
+
+	private Animal nomeAnimal;
+
+	private ManterAnimal historico;
+
+	private ManterEspecie nomeEspecie;
+
+	public void AlterarAnimal() {
+
+	}
+
+	public void ConsultarAnimal() {
+
+	}
+
+	public void AdicionarAnimal() {
+
+	}
+
+}
+
+public class ControlAgendamento {
+
+	private Cliente nomeCliente;
+
+	private Animal animal;
+
+	private Veterinario nomeVet;
+
+	public void AlterarAgendamento() {
+
+	}
+
+	public void ConsultarAgendamento() {
+
+	}
+
+	public void AdicionarAgendamento() {
+
+	}
+
+	public void CancelarAgendamento() {
+
+	}
+
+}
+
+public class ControlVeterinario {
+
+	private ManterVeterinario especializacao;
+
+	private Veterinario nome;
+
+	public void AlterarVet() {
+
+	}
+
+	public void ConsultarVet() {
+
+	}
+
+	public void AdicionarVet() {
+
+	}
+
+}
+
+public class ControlExames {
+
+	private Cliente nomeCliente;
+
+	private Veterinario nomeVet;
+
+	public void MarcarExame() {
+
+	}
+
+}
+
+public class ControlConsulta {
+
+	private String diagnostico;
+
+	private Veterinario nomeVet;
+
+	private Cliente nomeCliente;
+
+	private Animal nomeAnimal;
+
+	private ManterHistorico observacoes;
+
+	private GerarConta precoConsulta;
+
+	public void GerarConta() {
+
+	}
+
+	public void AtualizarHistorico() {
+
+	}
+
+}
+
+public class ControlCliente {
+
+	private Cliente nomeCliente;
+
+	public void CadastrarCliente() {
+
+	}
+
+	public void AtualizarCliente() {
+
+	}
+
+	public void BuscarCliente() {
+
+	}
+
+}
+
